@@ -3,7 +3,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 90vh;
-    background-color: #525a61;
+    background-color: #3e8fd6c3;
   }
 
 
@@ -17,7 +17,7 @@ body {
     padding-left: 2em;
     padding-right: 2em;
     padding-bottom: 0.4em;
-    background-color: #171717;
+    background-color: #ffffff;
     border-radius: 25px;
     transition: .4s ease-in-out;
     
@@ -30,9 +30,12 @@ body {
 
 #heading {
     text-align: center;
-    margin: 2em;
-    color: rgb(255,255,255);
-    font-size: 1.2em;
+    margin: 1em;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .field {
@@ -44,9 +47,9 @@ body {
     padding: 0.6em;
     border: none;
     outline: none;
-    color: white;
-    background-color: #171717;
-    box-shadow: inset 2px 5px 10px rgb(5,5,5);
+    color:  #3e8fd6c3;
+    background-color: white;
+    box-shadow: inset 2px 5px 10px  #3e8fd6c3;
 }
 
 .input-field {
@@ -54,7 +57,7 @@ body {
     border: none;
     outline: none;
     width: 100%;
-    color: #d3d3d3;
+    color: #3e8fd6c3;
 } 
 
 .form .btn {
@@ -73,29 +76,46 @@ body {
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: #3e8fd6c3;
     color: white;
+    cursor:pointer;
   }
   
   .button1:hover {
-    background-color: black;
+    background-color: rgb(41, 103, 148);
     color: white;
   }
-  
+  .button11:hover {
+    background-color: rgb(41, 103, 148);
+    color: white;
+  }
+
+  .link {
+    text-decoration: none;
+    color: white;
+    
+
+  }
+
   .button2 {
     padding: 0.5em;
     padding-left: 2.3em;
     padding-right: 2.3em;
     border-radius: 5px;
     border: none;
+    cursor:pointer;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: #3e8fd6c3;
     color: white;
   }
   
   .button2:hover {
-    background-color: black;
+    background-color: rgb(41, 103, 148);
+    color: white;
+  }
+  .button21:hover {
+    background-color: rgb(41, 103, 148);
     color: white;
   }
   
@@ -106,12 +126,48 @@ body {
     border: none;
     outline: none;
     transition: .4s ease-in-out;
-    background-color: #252525;
+    background-color: #3e8fd6c3;
     color: white;
+    cursor:pointer;
+    
   }
   
   .button3:hover {
-    background-color: red;
+    background-color: rgb(41, 103, 148);
     color: white;
+  }
+
+
+  .button11 {
+    padding: 0.5em;
+    padding-left: 1.1em;
+    padding-right: 1.1em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #3e8fd6c3;
+    color: white;
+    cursor:pointer;
+    margin-bottom: 3em;
+
+
+  }
+
+  .button21 {
+    padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    border: none;
+    cursor:pointer;
+    outline: none;
+    transition: .4s ease-in-out;
+    background-color: #3e8fd6c3;
+    color: white;
+    margin-bottom: 3em;
+    
+
   }
 
